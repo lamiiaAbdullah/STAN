@@ -42,6 +42,14 @@ The platform architecture maps out a highly scalable system ensuring reliable da
 
 ---
 
+## Screenshot
+<img width="620" height="268" alt="Picturew1" src="https://github.com/user-attachments/assets/d4194468-509e-4eba-a199-ed7482cd6d28" />
+<img width="571" height="268" alt="Picture1" src="https://github.com/user-attachments/assets/1cca0421-3e82-4923-9725-c2121510d24d" />
+<img width="571" height="262" alt="Picture1" src="https://github.com/user-attachments/assets/88ee6304-b025-4892-aa20-e45de5082f41" />
+<img width="601" height="305" alt="Picture3" src="https://github.com/user-attachments/assets/734a82f4-d572-4a0f-85f5-77b9c9203976" />
+<img width="660" height="409" alt="Picture14png" src="https://github.com/user-attachments/assets/3106d715-2fb8-4ba4-a725-52430d457ae5" />
+
+
 ## 📦 Local Installation & Setup
 
 To get a local copy of this repository up and running, follow these simple development steps:
