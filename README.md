@@ -1,45 +1,52 @@
 # 🎓 STAN (Student Training Access Network) Platform
 
-**STAN** is a comprehensive electronic hub and web platform designed to streamline, automate, and optimize the process of connecting university students with cooperative training and internship opportunities. It bridge the gap between academic institutions, students, and training providers.
+**STAN** is a modern, responsive web-based platform designed to bridge the gap between academic institutions, university students, and training providers. It streamlines, automates, and optimizes the cooperative training (Co-op) and field internship matching process.
+
+---
+
+## 🚨 The Problem
+University students face major challenges when securing cooperative training opportunities, including:
+* **Scattered Information:** Internship openings, requirements, and deadlines are distributed across disjointed channels, leading to missed opportunities.
+* **Manual Tracking Layouts:** Academic supervisors and faculty coordinators struggle with inefficient, paper-based, or manual spreadsheet workflows to track student progress, validation requests, and company assignments.
+* **Lack of Preparation:** Students often feel unguided and unprepared when transitioning into professional technical interviews during their placement cycle.
+
+## 💡 The Solution
+STAN addresses these pain points by introducing a single, unified electronic hub that:
+* **Centralizes Opportunities:** Integrates modern web views listing real-time training offers, scraped roles, and distinct company streams.
+* **Automates Workflows:** Provides dedicated portals for faculty administrative review, student alignment, and direct progress evaluations.
+* **Boosts Readiness:** Embeds interactive components to simulate professional interview environments and evaluate technical skills before formal placement applications.
 
 ---
 
 ## 🎯 Key Features
-* **Automated Matching Algorithm:** Smart filtering and matching mechanisms to connect students with the most relevant internship opportunities based on their skills, GPA, and majors.
-* **Unified Dashboard:** Distinct, user-friendly dashboards tailored for three main stakeholders: Students, Academic Supervisors, and Training Providers (Companies).
-* **Application Tracking:** Seamless workflow to submit, review, track, and approve training requests and required academic documentation.
-* **Evaluation & Reports:** Automated generation of progress reports and final evaluations during the training period.
+* **Smart Matching Algorithm:** Integrated client-side algorithmic scoring based on student majors (30%), specific technical skill ratios (40%), and GPA thresholds (15%) to recommend the most relevant internships.
+* **Interactive AI Interview Simulator:** Embedded flashcard-based component (`InterviewCard`) providing real-time technical questions and behavioral scenarios to boost student readiness before placement.
+* **Role-Based Portals:** Seamless view switching between Student Authentication pathways, Job Portals, and Academic Supervisor dashboards (`FacultyPortal`) for seamless tracking.
+* **Comprehensive Analytics & Filtering:** Advanced sorting for academic coordinators to filter students and job listings by type (Co-op, Field, or Remote work environments).
 
 ---
 
 ## 🏗️ System Architecture & Database Design
-The platform is built using a secure relational database environment to manage robust data structures:
-* **Relational Database (MySQL):** Structured tables handling user authentication, student profiles, company listings, application statuses, and matching criteria.
-* **System Models:** Complete UML diagrams including Use Case, Sequence, and Entity-Relationship Diagrams (ERD) to ensure high scalability and reliable data integrity.
+The platform architecture maps out a highly scalable system ensuring reliable data integrity:
+* **Relational Database Architecture (MySQL):** Structured data layers handling secure user authentication, student profiles, company listings, placement history, and supervisor recommendation records.
+* **System Models:** Complete UML modeling (Use Case, Sequence, and Entity-Relationship Diagrams) to guarantee smooth relational linkages between stakeholders.
 
 ---
 
-## 📐 UI/UX Design & Prototyping
-The interface focuses heavily on user-centered design, minimizing cognitive load for students during their stressful application phase:
-* **Figma Prototype:** Interactive, high-fidelity mockups mapping out every user flow—from registration to final report submission.
-* **Responsive Layouts:** Designed to adapt cleanly across modern web browsers and desktop screens to ensure high accessibility for administrative supervisors.
+## 🛠️ Tech Stack & Implementation Techniques
+* **Frontend Library:** React 19 (Leveraging modern functional components, along with hooks like `useState` and `useEffect` to manage application state and filter operations dynamically).
+* **Build Tool & Bundler:** Vite 7 (Configured for optimized modular asset bundling and rapid Hot Module Replacement).
+* **Styling & Theme:** Tailwind CSS v4 paired with localized typography configurations (`Tajawal` font imports) and custom shadows for a cohesive Arabic/English interface.
+* **Icons:** Lucide React icons for intuitive, clean navigation cues.
+* **Data Integration Layer:** Relational structure managed through database abstraction services (`dbService`) for persistent data handling, user state preservation, and recommendation updates.
 
 ---
 
-## 🛠️ Tech Stack & Implementation
-* **Frontend:** Built using modern web standards (HTML5, CSS3, JavaScript) based on verified UI/UX wireframes.
-* **Backend & Database:** Developed using **MySQL** for robust relational data management alongside server-side processing to power the matching logic.
+## 📦 Local Installation & Setup
 
----
+To get a local copy of this repository up and running, follow these simple development steps:
 
-## 👥 Project Team & Acknowledgments
-This platform was developed as a Graduation Project to fulfill the requirements for the **Bachelor of Computer Science** degree.
-
-* **Institution:** Prince Sattam Bin Abdulaziz University
-* **College:** College of Computer Engineering and Sciences
-* **Department:** Department of Computer Sciences
-
-### Developed By:
-* **Lamia Abdullah Al-Shamrani** 
-* **Rahan Mutlaq Al-Otaibi** 
-* **Ahad Mutlaq Al-Otaibi** 
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/STAN-Platform.git](https://github.com/YOUR_USERNAME/STAN-Platform.git)
+   cd STAN-Platform
